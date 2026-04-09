@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventory Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Inventory Search</h1>
+
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="Search product name..." />
+
+      <select id="categorySelect">
+        <option value="">All Categories</option>
+      </select>
+
+      <input type="number" id="minPrice" placeholder="Min Price" />
+      <input type="number" id="maxPrice" placeholder="Max Price" />
+
+      <button id="searchBtn">Search</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <p id="message" class="message"></p>
+
+    <table id="resultsTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Product</th>
+          <th>Category</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="resultsBody"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

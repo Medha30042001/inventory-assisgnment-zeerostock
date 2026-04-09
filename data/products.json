@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "Steel Water Bottle", "category": "Kitchen", "price": 499 },
+  { "id": 2, "name": "Ceramic Coffee Mug", "category": "Kitchen", "price": 299 },
+  { "id": 3, "name": "LED Desk Lamp", "category": "Electronics", "price": 1299 },
+  { "id": 4, "name": "Wireless Mouse", "category": "Electronics", "price": 799 },
+  { "id": 5, "name": "Bluetooth Speaker", "category": "Electronics", "price": 1999 },
+  { "id": 6, "name": "Office Chair", "category": "Furniture", "price": 5499 },
+  { "id": 7, "name": "Study Table", "category": "Furniture", "price": 4499 },
+  { "id": 8, "name": "Cotton Bedsheet", "category": "Home", "price": 899 },
+  { "id": 9, "name": "Wall Clock", "category": "Home", "price": 699 },
+  { "id": 10, "name": "Running Shoes", "category": "Fashion", "price": 2499 },
+  { "id": 11, "name": "Backpack", "category": "Fashion", "price": 1499 },
+  { "id": 12, "name": "Notebook Set", "category": "Stationery", "price": 199 }
+]
